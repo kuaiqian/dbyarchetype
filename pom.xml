@@ -26,7 +26,16 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-
+  <distributionManagement>
+    <repository>
+      <id>rdc-releases</id>
+      <url>https://repo.rdc.aliyun.com/repository/72268-release-GSpvxj/</url>
+    </repository>
+    <snapshotRepository>
+      <id>rdc-snapshots</id>
+      <url>https://repo.rdc.aliyun.com/repository/72268-snapshot-iOnWsa/</url>
+    </snapshotRepository>
+  </distributionManagement>
   <build>
     <pluginManagement>
       <plugins>
