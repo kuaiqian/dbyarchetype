@@ -12,8 +12,8 @@ import org.springframework.web.HttpRequestMethodNotSupportedException;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.ServletRequestBindingException;
 
-import ${groupId}.middleware.common.GlobalConstants;
-import ${groupId}.middleware.common.Result;
+import com.duobaoyu.middleware.common.GlobalConstants;
+import com.duobaoyu.middleware.common.Result;
 
 import lombok.extern.slf4j.Slf4j;
 

@@ -4,7 +4,7 @@
 package ${package};
 
 import ${package}.util.ErrorUtil;
-import ${groupId}.middleware.common.Result;
+import com.duobaoyu.middleware.common.Result;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
