@@ -4,7 +4,7 @@
 package ${package}.util;
 
 
-import com.duobaoyu.middleware.repository.CodeTools;
+import com.duobaoyu.middleware.repository.CodeToolsV2;
 
 /**
  * @program: edas-example
