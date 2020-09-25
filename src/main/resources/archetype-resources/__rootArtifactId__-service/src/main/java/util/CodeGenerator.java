@@ -23,6 +23,6 @@ public class CodeGenerator {
     };
 
     public static void main(String[] args) throws Exception {
-        CodeTools.genSimpleDataSource(true,true,TABLE_NAMES);
+        CodeToolsV2.genSimpleDataSource(true,true,TABLE_NAMES);
     }
 }
