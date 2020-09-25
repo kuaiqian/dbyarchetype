@@ -19,7 +19,7 @@ public class CodeGenerator {
      */
     private final static String[] TABLE_NAMES = new String[]{
             // *************************这块代码请不要提交，使用完记得rollback ***********************
-            "customer_task_plan"
+            ""
     };
 
     public static void main(String[] args) throws Exception {
