@@ -4,7 +4,7 @@
     <parent>
         <groupId>com.duobaoyu.common</groupId>
         <artifactId>base</artifactId>
-        <version>1.0-RElEASE</version>
+        <version>2.0.1-SNAPSHOT</version>
     </parent>
     <groupId>${groupId}</groupId>
     <artifactId>${artifactId}</artifactId>
@@ -28,6 +28,16 @@
         <dependency>
             <groupId>com.duobaoyu.middleware</groupId>
             <artifactId>repository</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.duobaoyu.middleware</groupId>
+            <artifactId>redis</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.duobaoyu.middleware</groupId>
+            <artifactId>multiTenant</artifactId>
         </dependency>
 
         <dependency>

@@ -14,11 +14,12 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
-@SpringBootApplication
+@SpringBootApplication(exclude = RedisTemplateConfiguration.class, MessageConfiguration.class, JacksonConfiguration.class)
 @ControllerAdvice
 @EnableSwagger2
 @EnableFeignClients
 @EnableDiscoveryClient
+@EnableMultiTenantApplication
 public class DemoProjectApplication {
 
     public static void main(String[] args) {
