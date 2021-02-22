@@ -35,6 +35,15 @@
       <id>rdc-snapshots</id>
       <url>https://repo.rdc.aliyun.com/repository/72268-snapshot-iOnWsa/</url>
     </snapshotRepository>
+
+    <!--<repository>
+      <id>dby-releases</id>
+      <url>http://mvn.91duobaoyu.com:8887/nexus/content/repositories/releases</url>
+    </repository>
+    <snapshotRepository>
+      <id>dby-snapshots</id>
+      <url>http://mvn.91duobaoyu.com:8887/nexus/content/repositories/snapshots</url>
+    </snapshotRepository>-->
   </distributionManagement>
   <build>
     <pluginManagement>
